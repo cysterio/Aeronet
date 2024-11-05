@@ -1,6 +1,6 @@
 <body>
   <h1>
-    <img src="https://i.ibb.co/853WF7T/icon.jpg" alt="AeroNet Logo", style="height:100px">
+    <img src="https://i.ibb.co/853WF7T/icon.jpg" alt="AeroNet Logo", style="height:30px">
     AeroNet
   </h1>
   <p>AeroNet is a concept project designed to develop a realistic, semi-autonomous Air Traffic Management (ATM) system. The primary goal is to alleviate the workload of Air Traffic Controllers (ATCs) by automating routine tasks and providing intelligent support. This system aims to enhance overall safety and efficiency in airspace management.</p>
