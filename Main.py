@@ -17,7 +17,8 @@ class Aeronet:
                 Credentials.set_password(password)
                 return myDB
             except db.errors.ProgrammingError:
-                print("Wrong Password, Try Again")
+                if not password == "Aeronet@123":
+                    print("Wrong Password, Try Again")
                 password = input("Please enter your mysql password : ")
 
     def initialize_database(self, cursor : object) -> None:
