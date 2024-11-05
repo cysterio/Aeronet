@@ -1,66 +1,101 @@
-# ![Alt text](https://i.ibb.co/853WF7T/icon.jpg) AeroNet
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AeroNet: Semi-Autonomous Air Traffic Management System</title>
+  <style>
+    /* You can add basic styling here to enhance the appearance */
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    <img src="https://i.ibb.co/853WF7T/icon.jpg" alt="AeroNet Logo">
+    AeroNet
+  </h1>
+  <p>AeroNet is a concept project designed to develop a realistic, semi-autonomous Air Traffic Management (ATM) system. The primary goal is to alleviate the workload of Air Traffic Controllers (ATCs) by automating routine tasks and providing intelligent support. This system aims to enhance overall safety and efficiency in airspace management.</p>
 
-AeroNet is a concept project designed to develop a realistic, semi-autonomous Air Traffic Management (ATM) system. The primary goal is to alleviate the workload of Air Traffic Controllers (ATCs) by automating routine tasks and providing intelligent support. This system aims to enhance overall safety and efficiency in airspace management.
+  <h2>Project Objectives</h2>
+  <ul>
+    <li>Reduce ATC workload</li>
+    <li>Optimize flight paths</li>
+    <li>Prevent mid-air collisions</li>
+    <li>Effective navigation guidance</li>
+  </ul>
 
-## Project Objectives
+  <h2>System Features</h2>
+  <ul>
+    <li>Autonomous flight guidance</li>
+    <li>Real-time data analysis</li>
+    <li>Collision avoidance system</li>
+    <li>Navaid integration</li>
+  </ul>
 
-* Reduce ATC workload
-* Optimize flight paths
-* Prevent mid-air collisions
-* Effective navigation guidance
+  <h2>Technology Stack</h2>
+  <ul>
+    <li>Front-end: Python Tkinter</li>
+    <li>Back-end: Python with MySQL database</li>
+    <li>Programming languages: Python</li>
+    <li>Libraries:
+      <ul>
+        <li>mysql-connector-python8.0.0</li>
+        <li>numpy 2.1.0</li>
+        <li>pillow 10.2.0</li>
+        <li>tkinter</li>
+        <li>math</li>
+        <li>random</li>
+        <li>heapq</li>
+      </ul>
+    </li>
+  </ul>
 
-## System Features
+  <h2>Hardware/Software Requirements</h2>
+  <ul>
+    <li>Operating System: Windows 10/11 or above</li>
+    <li>Platform: Python IDLE 3.10.1 or similar IDE</li>
+    <li>Database: MySQL</li>
+    <li>Processor: Octa-core or above (recommended)</li>
+    <li>Hard Disk: 100 GB or above</li>
+    <li>RAM: 8 GB or above (recommended)</li>
+  </ul>
 
-* Autonomous flight guidance
-* Real-time data analysis
-* Collision avoidance system
-* Navaid integration
+  <h2>Scope and Limitations</h2>
+  <p>Designed for simulation and research purposes. Integrates seamlessly with human ATCs for handling emergencies. Future potential for real-world integration with aircraft flight computers.</p>
+  <p>Limitations: May not account for all potential emergency scenarios.</p>
 
-## Technology Stack
+  <h2>Airspace Design</h2>
+  <p>Incorporates a tiered structure of waypoints (20 total) strategically arranged for optimized air traffic flow and enhanced safety.
+    <ul>
+      <li>Primary Waypoints (12): Distance - 25 nautical miles</li>
+      <li>Secondary Waypoints (6): Distance - 15 nautical miles</li>
+      <li>Tertiary Waypoints (2): Distance - 5 nautical miles</li>
+    </ul>
+  This tiered approach ensures efficient routing and avoids congestion within the airspace.</p>
 
-* Front-end: Python Tkinter
-* Back-end: Python with MySQL database
-* Programming languages: Python
-* Libraries:
-  * mysql-connector-python8.0.0
-  * numpy 2.1.0
-  * pillow 10.2.0
-  * tkinter
-  * math
-  * random
-  * heapq
+  <p>
+    <img src="https://i.ibb.co/XCjfr3R/image.png" alt="Airspace Design">
+  </p>
 
-## Hardware/Software Requirements
+  <h2>Getting Started</h2>
+  <ol>
+    <li>Install required libraries (`pip install mysql-connector-python8.0.0 numpy pillow`).</li>
+    <li>Set up a MySQL database (not covered here).</li>
+    <li>Configure database connection details in the code.</li>
+    <li<li>Run the main script (`python main.py`).</li>
+  </ol>
 
-* Operating System: Windows 10/11 or above
-* Platform: Python IDLE 3.10.1 or similar IDE
-* Database: MySQL
-* Processor: Octa-core or above (recommended)
-* Hard Disk: 100 GB or above
-* RAM: 8 GB or above (recommended)
-
-## Scope and Limitations
-
-Designed for simulation and research purposes. Integrates seamlessly with human ATCs for handling emergencies. Future potential for real-world integration with aircraft flight computers
-
-Limitations: May not account for all potential emergency scenarios.
-
-## Airspace Design
-
-Incorporates a tiered structure of waypoints (20 total) strategically arranged for optimized air traffic flow and enhanced safety.
-* Primary Waypoints (12): Distance - 25 nautical miles
-* Secondary Waypoints (6): Distance - 15 nautical miles
-* Tertiary Waypoints (2): Distance - 5 nautical miles
-This tiered approach ensures efficient routing and avoids congestion within the airspace.
-
-![Alt text](https://i.ibb.co/XCjfr3R/image.png)
-
-## Getting Started
-
-1. Install required libraries (`pip install mysql-connector-python8.0.0 numpy pillow`).
-3. Configure database connection details in the code.
-4. Run the main script (`python main.py`).
-
-## Contributing
-
-We welcome contributions to this project! Please create a pull request on GitHub for any bug fixes, enhancements, or new features.
+  <h2>Contributing</h2>
+  <p>We welcome contributions to this project! Please create a pull request on GitHub for any bug fixes, enhancements, or new features.</p>
+</body>
+</html>
