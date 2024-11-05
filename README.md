@@ -37,7 +37,7 @@ AeroNet is a project designed to develop a realistic, semi-autonomous Air Traffi
 * Database: MySQL
 * Processor: Octa-core or above (recommended)
 * Hard Disk: 100 GB or above
-* RAM: 24 GB or above (recommended)
+* RAM: 8 GB or above (recommended)
 
 ## Scope and Limitations
 
