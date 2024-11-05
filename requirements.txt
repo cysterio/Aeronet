@@ -1,0 +1,6 @@
+#python 3.10+
+#mysql 8.0+ {server : client}
+
+mysql-connector-python==9.0.0
+numpy==1.26.4
+pillow==10.2.0
