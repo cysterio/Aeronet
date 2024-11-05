@@ -53,6 +53,8 @@ Incorporates a tiered structure of waypoints (20 total) strategically arranged f
 * Tertiary Waypoints (2): Distance - 5 nautical miles
 This tiered approach ensures efficient routing and avoids congestion within the airspace.
 
+![My Image][https://i.ibb.co/XCjfr3R/image.png]
+
 ## Getting Started
 
 1. Install required libraries (`pip install mysql-connector-python8.0.0 numpy pillow`).
