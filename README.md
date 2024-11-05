@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AeroNet: Semi-Autonomous Air Traffic Management System</title>
-  <style>
-    /* You can add basic styling here to enhance the appearance */
-    body {
-      font-family: sans-serif;
-      margin: 20px;
-    }
-    h1, h2 {
-      margin-bottom: 10px;
-    }
-    ul {
-      list-style: disc;
-      padding-left: 20px;
-    }
-  </style>
-</head>
 <body>
   <h1>
     <img src="https://i.ibb.co/853WF7T/icon.jpg" alt="AeroNet Logo">
