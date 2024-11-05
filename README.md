@@ -1,4 +1,4 @@
-# AeroNet: Semi-Autonomous Air Traffic Management System
+# AeroNet
 
 AeroNet is a project designed to develop a realistic, semi-autonomous Air Traffic Management (ATM) system. The primary goal is to alleviate the workload of Air Traffic Controllers (ATCs) by automating routine tasks and providing intelligent support. This system aims to enhance overall safety and efficiency in airspace management.
 
@@ -7,7 +7,6 @@ AeroNet is a project designed to develop a realistic, semi-autonomous Air Traffi
 * Reduce ATC workload
 * Optimize flight paths
 * Prevent mid-air collisions
-* Streamline airport operations
 * Effective navigation guidance
 
 ## System Features
@@ -15,7 +14,6 @@ AeroNet is a project designed to develop a realistic, semi-autonomous Air Traffi
 * Autonomous flight guidance
 * Real-time data analysis
 * Collision avoidance system
-* Dynamic airport management
 * Navaid integration
 
 ## Technology Stack
@@ -30,6 +28,7 @@ AeroNet is a project designed to develop a realistic, semi-autonomous Air Traffi
   * tkinter
   * math
   * random
+  * heapq
 
 ## Hardware/Software Requirements
 
