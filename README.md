@@ -68,10 +68,10 @@
 
   <h2>Getting Started</h2>
   <ol>
-    <li>Install required libraries (<span style="color: green;">`pip install mysql-connector-python8.0.0 numpy pillow`</span>).</li>
+    <li>Install required libraries (`pip install mysql-connector-python8.0.0 numpy pillow`).</li>
     <li>Set up a MySQL database (not covered here).</li>
     <li>Configure database connection details in the code.</li>
-    <li<li>Run the main script (<span style="color: green;">`python main.py`</span>).</li>
+    <li>Run the main script (`python main.py`).</li>
   </ol>
 
   <h2>Contributing</h2>
